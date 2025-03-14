@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px; /* Espacio encima */
+  }
+  
+  .image-container {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .image-container img {
+    width: 150px; /* Tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados si deseas */
+  }
+  
+  .text-container {
+    max-width: 600px; /* Ancho máximo para la descripción */
+  }
+  
+  .portfolio-title {
+    font-size: 36px;
+    color: #333;
+    white-space: pre-line;
+  }
+  
+  .profile-description {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px; /* Espacio entre el título y la descripción */
+  }
+  
