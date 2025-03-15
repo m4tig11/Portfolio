@@ -216,29 +216,22 @@
   }
 }
 
+/* Sección de proyectos responsiva */
 .projects-section {
   padding: 4rem 2rem;
   background: #ffffff;
 }
 
-.projects-section h2 {
-  text-align: center;
-  color: #2d3436;
-  margin-bottom: 3rem;
-  font-size: 2.5rem;
-}
-
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0 2rem;
 }
 
 .project-card {
-  width: 100%;
   background: white;
   border-radius: 12px;
   overflow: hidden;
@@ -248,6 +241,12 @@
 
 .project-card:hover {
   transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-image-container {
@@ -936,4 +935,27 @@
   font-size: 30px;
   cursor: pointer;
   z-index: 1300;
+}
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem 2rem; /* Ajustamos el padding superior */
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  backdrop-filter: blur(10px);
+}
+
+/* Ajustar padding en móviles */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 7rem; /* Un poco más para compensar el navbar */
+  }
 }
