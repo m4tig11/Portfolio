@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/tu-repo/static/css/main.4ba8f73b.css",
-    "main.js": "/tu-repo/static/js/main.a5a88b47.js",
-    "static/js/453.6426b483.chunk.js": "/tu-repo/static/js/453.6426b483.chunk.js",
-    "static/media/home (1).jpeg": "/tu-repo/static/media/home (1).69d43bd181f4819b15c2.jpeg",
-    "static/media/WhatsApp Image 2024-12-03 at 20.22.12 (1).jpeg": "/tu-repo/static/media/WhatsApp Image 2024-12-03 at 20.22.12 (1).9af6279948158c495b96.jpeg",
-    "static/media/WhatsApp Image 2024-12-03 at 20.19.29 (1).jpeg": "/tu-repo/static/media/WhatsApp Image 2024-12-03 at 20.19.29 (1).79c167135c2fef171ae4.jpeg",
-    "static/media/Gastos.jpeg": "/tu-repo/static/media/Gastos.f3ae5ef52906ab87f00f.jpeg",
-    "static/media/WhatsApp Image 2024-12-03 at 20.18.54 (1).jpeg": "/tu-repo/static/media/WhatsApp Image 2024-12-03 at 20.18.54 (1).c7a79168eb52a448e43e.jpeg",
-    "static/media/Inicio.jpeg": "/tu-repo/static/media/Inicio.58ff3735aafb4463813c.jpeg",
-    "static/media/Login.jpeg": "/tu-repo/static/media/Login.df44f6bcd4059eb32c6f.jpeg",
-    "static/media/Home.jpeg": "/tu-repo/static/media/Home.947f8188907fa88dcc4c.jpeg",
-    "static/media/Historial.jpeg": "/tu-repo/static/media/Historial.67d9b26a1b8751215e9f.jpeg",
-    "static/media/Foto.jpeg": "/tu-repo/static/media/Foto.381213a09bf3e1b4fc67.jpeg",
-    "static/media/Pedido.jpeg": "/tu-repo/static/media/Pedido.3d42be6baa76b1b8d3bb.jpeg",
-    "static/media/homem.jpeg": "/tu-repo/static/media/homem.b6b5d8b63c124b5d1cfa.jpeg",
-    "static/media/Robot.jpeg": "/tu-repo/static/media/Robot.426e288e86ac23199aec.jpeg",
-    "static/media/pedidom.jpeg": "/tu-repo/static/media/pedidom.083faeb4544554299850.jpeg",
-    "index.html": "/tu-repo/index.html",
-    "main.4ba8f73b.css.map": "/tu-repo/static/css/main.4ba8f73b.css.map",
-    "main.a5a88b47.js.map": "/tu-repo/static/js/main.a5a88b47.js.map",
-    "453.6426b483.chunk.js.map": "/tu-repo/static/js/453.6426b483.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.4ba8f73b.css",
+    "main.js": "/Portfolio/static/js/main.1640848c.js",
+    "static/js/453.6426b483.chunk.js": "/Portfolio/static/js/453.6426b483.chunk.js",
+    "static/media/home (1).jpeg": "/Portfolio/static/media/home (1).69d43bd181f4819b15c2.jpeg",
+    "static/media/WhatsApp Image 2024-12-03 at 20.22.12 (1).jpeg": "/Portfolio/static/media/WhatsApp Image 2024-12-03 at 20.22.12 (1).9af6279948158c495b96.jpeg",
+    "static/media/WhatsApp Image 2024-12-03 at 20.19.29 (1).jpeg": "/Portfolio/static/media/WhatsApp Image 2024-12-03 at 20.19.29 (1).79c167135c2fef171ae4.jpeg",
+    "static/media/Gastos.jpeg": "/Portfolio/static/media/Gastos.f3ae5ef52906ab87f00f.jpeg",
+    "static/media/WhatsApp Image 2024-12-03 at 20.18.54 (1).jpeg": "/Portfolio/static/media/WhatsApp Image 2024-12-03 at 20.18.54 (1).c7a79168eb52a448e43e.jpeg",
+    "static/media/Inicio.jpeg": "/Portfolio/static/media/Inicio.58ff3735aafb4463813c.jpeg",
+    "static/media/Login.jpeg": "/Portfolio/static/media/Login.df44f6bcd4059eb32c6f.jpeg",
+    "static/media/Home.jpeg": "/Portfolio/static/media/Home.947f8188907fa88dcc4c.jpeg",
+    "static/media/Historial.jpeg": "/Portfolio/static/media/Historial.67d9b26a1b8751215e9f.jpeg",
+    "static/media/Foto.jpeg": "/Portfolio/static/media/Foto.381213a09bf3e1b4fc67.jpeg",
+    "static/media/Pedido.jpeg": "/Portfolio/static/media/Pedido.3d42be6baa76b1b8d3bb.jpeg",
+    "static/media/homem.jpeg": "/Portfolio/static/media/homem.b6b5d8b63c124b5d1cfa.jpeg",
+    "static/media/Robot.jpeg": "/Portfolio/static/media/Robot.426e288e86ac23199aec.jpeg",
+    "static/media/pedidom.jpeg": "/Portfolio/static/media/pedidom.083faeb4544554299850.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.4ba8f73b.css.map": "/Portfolio/static/css/main.4ba8f73b.css.map",
+    "main.1640848c.js.map": "/Portfolio/static/js/main.1640848c.js.map",
+    "453.6426b483.chunk.js.map": "/Portfolio/static/js/453.6426b483.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ba8f73b.css",
-    "static/js/main.a5a88b47.js"
+    "static/js/main.1640848c.js"
   ]
 }
