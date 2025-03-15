@@ -29,16 +29,18 @@ function App() {
 
       <footer className="footer">
         <div className="social-links">
-          <a href="https://github.com/tuUsuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/m4tig11" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/tuUsuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/matias-greco/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
         </div>
-        <button className="cv-button">
-          <FaDownload /> Descargar CV
-        </button>
+        
+          <a href="/Matias_Greco_Resume.pdf" download="Matias_Greco_CV.pdf" className="download-cv-btn">
+            <FaDownload /> Descargar CV
+          </a>
+        
       </footer>
     </div>
   );
