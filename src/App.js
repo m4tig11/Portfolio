@@ -1,9 +1,12 @@
-import React from 'react';
-import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import './App.css';
-import Inicio from './components/Inicio';
+import React from "react";
+import { FaDownload, FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa";
+import "./App.css";
+import Inicio from "./components/Inicio";
+import { useLanguage } from "./LanguageContext";
 
 function App() {
+  const { language, toggleLanguage, t } = useLanguage();
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -16,10 +19,14 @@ function App() {
       <nav className="navbar">
         <div className="nav-logo">MG</div>
         <div className="nav-links">
-          <button onClick={() => scrollToSection('inicio')}>Inicio</button>
-          <button onClick={() => scrollToSection('formacion')}>Formación</button>
-          <button onClick={() => scrollToSection('proyectos')}>Proyectos</button>
-          <button onClick={() => scrollToSection('contacto')}>Contacto</button>
+          <button onClick={() => scrollToSection("inicio")}>{t('inicio')}</button>
+          <button onClick={() => scrollToSection("formacion")}>{t('formacion')}</button>
+          <button onClick={() => scrollToSection("proyectos")}>{t('proyectos')}</button>
+          <button onClick={() => scrollToSection("contacto")}>{t('contacto')}</button>
+          <button className="language-switcher" onClick={toggleLanguage}>
+            <FaGlobe className="globe-icon" />
+            <span>{language === 'es' ? 'EN' : 'ES'}</span>  
+          </button>
         </div>
       </nav>
 
@@ -36,11 +43,9 @@ function App() {
             <FaLinkedin />
           </a>
         </div>
-        
-          <a href="/Matias_Greco_Resume.pdf" download="Matias_Greco_CV.pdf" className="download-cv-btn">
-            <FaDownload /> Descargar CV
-          </a>
-        
+        <a href="/Matias_Greco_Resume.pdf" download="Matias_Greco_CV.pdf" className="download-cv-btn">
+          <FaDownload /> {t('descargarCV')}
+        </a>
       </footer>
     </div>
   );
