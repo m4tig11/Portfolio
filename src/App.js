@@ -19,13 +19,21 @@ function App() {
       <nav className="navbar">
         <div className="nav-logo">MG</div>
         <div className="nav-links">
-          <button onClick={() => scrollToSection("inicio")}>{t('inicio')}</button>
-          <button onClick={() => scrollToSection("formacion")}>{t('formacion')}</button>
-          <button onClick={() => scrollToSection("proyectos")}>{t('proyectos')}</button>
-          <button onClick={() => scrollToSection("contacto")}>{t('contacto')}</button>
+          <button onClick={() => scrollToSection("inicio")}>
+            <span>{t('inicio')}</span>
+          </button>
+          <button onClick={() => scrollToSection("formacion")}>
+            <span>{t('formacion')}</span>
+          </button>
+          <button onClick={() => scrollToSection("proyectos")}>
+            <span>{t('proyectos')}</span>
+          </button>
+          <button onClick={() => scrollToSection("contacto")}>
+            <span>{t('contacto')}</span>
+          </button>
           <button className="language-switcher" onClick={toggleLanguage}>
             <FaGlobe className="globe-icon" />
-            <span>{language === 'es' ? 'EN' : 'ES'}</span>  
+            <span>{language === 'es' ? 'EN' : 'ES'}</span>
           </button>
         </div>
       </nav>

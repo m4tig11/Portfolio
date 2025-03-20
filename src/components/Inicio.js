@@ -361,8 +361,8 @@ function Inicio() {
         )}
       </section>
       <section id="formacion" className="formacion-section">
-        <h2>{t('sobreMi')}</h2>
         <div className="sobre-mi-content">
+          <h2 className="formacion-titulo">{t('sobreMi')}</h2>
           <p className="sobre-mi-texto">
             {t('sobreMiTexto1')}
           </p>
